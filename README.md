@@ -13,4 +13,11 @@ git clone https://github.com/Ahmedabied/spamit.git
 
 ```
 
+###### Syntax :
 
+> python3 spamit.py [username] [message]
+
+
+###### Preview :
+
+![alt text](https://raw.githubusercontent.com/Ahmedabied/spamit/master/spamit.png)
