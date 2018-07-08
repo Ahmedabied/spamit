@@ -20,7 +20,7 @@ try:
             print(u"\u001b[31;1m RI :"+recipientid+"\u001b[0m")
             print(u"\u001b[33;1m PR :"+str(proxy)+"\u001b[0m")
             print(u'\u001b[30;1m'+"######################################"+"\u001b[0m")
-    ip = [{'http':'http://'+str(i.split("\n")[0])} for i in open("tools/proxy.list")]
+    ip = [{'http':'http://'+str(i.split("\n")[0])} for i in open("proxy.list")]
     counter,lip=[0,len(ip)]
 
     while True:
